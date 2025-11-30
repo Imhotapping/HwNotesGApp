@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HwNotesGApp</string>
+    <string name="edit">Редактировать</string>
+    <string name="delete">Удалить</string>
+    <string name="heading">Заголовок</string>
+    <string name="noteContent">Содержание заметки...</string>
+    <string name="saveAs">Сохранить</string>
+    <string name="cancel">Отмена</string>
+</resources>

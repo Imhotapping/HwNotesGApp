@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="floatingActionButtonMargin">16dp</dimen>
+    <dimen name="cardViewMargin">8dp</dimen>
+    <dimen name="cardViewCornerRadius">8dp</dimen>
+    <dimen name="cardViewElevation">4dp</dimen>
+    <dimen name="cardTextSize">18sp</dimen>
+    <dimen name="cardTextSize2">14sp</dimen>
+    <dimen name="cardTextSize3">12sp</dimen>
+    <dimen name="headingTextSize">24sp</dimen>
+    <dimen name="marginButton">8dp</dimen>
+</resources>
