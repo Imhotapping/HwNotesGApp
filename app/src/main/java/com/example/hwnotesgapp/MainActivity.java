@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Инициализация ViewModel
         notesViewModel = new ViewModelProvider(this).get(NotesViewModel.class);
 
         initViews();
@@ -60,11 +59,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setupObservers() {
-        // Наблюдаем за изменениями в списке заметок
         notesViewModel.getNotes().observe(this, new Observer<List<NoteItem>>() {
             @Override
             public void onChanged(List<NoteItem> noteItems) {
-                // Обновляем адаптер при изменении данных
                 adapter.setNotes(noteItems);
             }
         });
